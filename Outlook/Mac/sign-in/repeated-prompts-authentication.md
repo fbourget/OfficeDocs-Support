@@ -43,14 +43,15 @@ To work around this issue, delete any cached passwords for your account, and al
 2. Start Keychain Access by using one of the following methods:   
    - Select the **Finder** application, click **Utilities** on the **Go** menu, and then double-click **Keychain Access**.   
    - In **Spotlight Search**, type **Keychain Access**, and then double-click **Keychain Access** in the search results.   
+3. In the View menu, select **Show Invisible Items**.
 
-3. In the search field in Keychain Access, enter **Exchange**.   
-4. In the search results, select each item to view the **Account** that's listed at the top, and then press Delete. Repeat this step to delete all items for your Exchange account.   
-5. In the search field, enter **adal**.   
-6. Select all items whose type is **MicrosoftOffice15_2_Data:ADAL:\<GUID>**, and then press Delete.
-7. In the search field, enter **office**.   
-8. Select the items that are named **Microsoft Office Identities Cache 2** and **Microsoft Office Identities Settings 2**, and then press Delete.   
-9. Quit Keychain Access.   
+4. In the search field in Keychain Access, enter **Exchange**.   
+5. In the search results, select each item to view the **Account** that's listed at the top, and then press Delete. Repeat this step to delete all items for your Exchange account.   
+6. In the search field, enter **adal**.   
+7. Select all items whose type is **MicrosoftOffice15_2_Data:ADAL:\<GUID>**, and then press Delete.
+8. In the search field, enter **office**.   
+9. Select the items that are named **Microsoft Office Identities Cache 2** and **Microsoft Office Identities Settings 2**, and then press Delete.   
+10. Quit Keychain Access.   
 
    > [!NOTE]
    > When you start Outlook, you are prompted to authenticate.
